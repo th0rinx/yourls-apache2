@@ -1,12 +1,18 @@
-# README.MD
-Making attractive and usable readme's. 
-This is a short description about the content of my proyect. This text have to be simple and explicit.
+# README.md
+>Acortador de URL basado en PHP, de código abierto, llamado YOURLS.
 
-## Content
-This proyect has two branches: develop1 and develop2. **develop1** contains the tests of the repositories and **develop2** contains the test of the use cases.
+## YOURLS Features
+>Software gratuito y de código abierto,
+>
+>Privado (solo sus enlaces) o Público (todo el mundo puede crear enlaces cortos, está bien para una intranet),Excelente arquitectura de complementos y docenas de complementos para implementar fácilmente nuevas funciones,Prácticos marcadores para acortar y compartir enlaces fácilmente.
+>
+>Estadísticas impresionantes : informes históricos de clics, seguimiento de referencias, ubicación geográfica de visitantes.
+>
+>API de desarrollador para integrar YOURLS en otras aplicaciones,
+>Instalador amigable ,¡Archivos de muestra para crear su propia interfaz pública y más!
 
-## Demo
-If you want to see the demo of this proyect deployed, you can visit [Demo of the proyect](https://anabelisa.co/tips-para-hacer-un-buen-readme-md/)
+## Estadísticas para cada URL corta
+
 
 ## How to clone
 If you have special requirements, you have to list it step by step.
