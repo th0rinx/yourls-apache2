@@ -13,6 +13,10 @@
 
 ## Estadísticas para cada URL corta
 
+![stats](https://user-images.githubusercontent.com/87372312/143271200-373be6d5-9fa3-4372-8422-ac3b61f1b23b.gif)
+
+
+
 
 ## How to clone
 If you have special requirements, you have to list it step by step.
