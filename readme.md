@@ -1,6 +1,9 @@
 # README.md
 >Acortador de URL basado en PHP, de código abierto, llamado YOURLS.
 
+![login](https://user-images.githubusercontent.com/87372312/143271359-28f97f57-0577-487e-9394-6a464e760053.png)
+
+
 ## YOURLS Features
 >Software gratuito y de código abierto,
 >
@@ -18,13 +21,15 @@
 
 
 
-## How to clone
-If you have special requirements, you have to list it step by step.
-* This is the first step
-* Then you have to do this
-* Finally do this
+## Datos Tecnicos
 
-Markdown has enumation and nested lists.
+- YOURLS version: 1.8.2
+- YOURLS DB Ver: 506
+- PHP version: 7.4.3
+- Server OS Build: Linux
+- Server & version: Apache/2.4.41 (Ubuntu)
+- Browser information: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
+
 
 ## Installation
 To install and run this proyect just type and execute
