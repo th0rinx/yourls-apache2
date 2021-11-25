@@ -139,24 +139,31 @@ sudo a2enmod rewrite
 sudo nano /var/www/yourls/.htaccess
 ```
 
-Pega el archivo predeterminado .htaccess en:
+Pega el archivo predeterminado .htaccess en: **La linea RedirectMatch ^/$ /admin/ es la que redirecciona al directorio /admin)**
 
 ```bash
-  # BEGIN YOURLS
+# BEGIN YOURLS
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^.*$ /yourls-loader.php [L]
+RedirectMatch ^/$ /admin/
 </IfModule>
- # END YOURLS
+# END YOURLS
 ```
 
+Más detalles para configurar .htaccess y YOURLS [están aquí](https://github.com/YOURLS/YOURLS/wiki/.htaccess)
 
 
 
+## Repositorio Oficial + Plugins
+
+Donde encontrarás Wiki - Issue - Troubleshoot, etc ..
+
+[YOURLS](https://github.com/YOURLS/YOURLS) :eye_speech_bubble:	 
+
+[PLUGINS](https://github.com/YOURLS/awesome-yourls) :eye_speech_bubble:	
 
 
-### Notes
-If you want to learn all about markdown i recommend you visit the site [markdown.es](https://markdown.es/sintaxis-markdown/)
