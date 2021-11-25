@@ -164,6 +164,33 @@ RedirectMatch ^/$ /admin/
 Más detalles para configurar .htaccess y YOURLS [están aquí](https://github.com/YOURLS/YOURLS/wiki/.htaccess)
 
 
+## Backup
+
+Ejecutar el script detallado mas abajo, cambiar los parametros antes de ejecutarlo. El mismo resguarda las tablas **yourls_logs - yourls_options - yourls_url** . Para importar las tablas se deberá crear una DB con el nombre **yourls**.
+
+
+```bash
+#!/bin/bash
+PASS="CONTRASEÑA"
+DB="yourls" //Por defecto
+SQL_USR="USUARIO"
+SQL_PSW="CONTRASEÑA"
+BCK_DIR="PATH DONDE GUARDA EL .sql"
+TIMESTAMP=$(date +%d-%m-%Y_%H-%M-%S)
+
+if [ -d $BCK_DIR ]
+then
+        echo "Directory exist. File will be moved to: $BCK_DIR"
+        echo $PASS | sudo -S mysqldump -u $SQL_USR --password=$SQL_PSW $DB > $BCK_DIR/BK-$TIMESTAMP.sql
+        echo "SQL Backup Created! - Script workd is done!"
+else
+        echo "Directory not exsist!"
+fi
+```
+
+
+
+
 
 ## Repositorio Oficial + Plugins
 
